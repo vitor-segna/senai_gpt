@@ -1,16 +1,16 @@
 // ============================
 // Configuração da API Gemini
 // ============================
-const GEMINI_API_KEY = 'AIzaSyDXzG18s80JiQjsx0vbRZbcxorq2zp_Bxw';
-const GEMINI_MODEL = 'gemini-2.5-flash-preview-04-17';
+const GEMINI_API_KEY = 'AIzaSyB6KZeENgTmB2pBgpWaSS0h1PrCtGfuXiE';
+const GEMINI_MODEL = 'gemini-2.5-flash';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
 // Histórico de conversa para contexto
 let conversationHistory = [];
 
 const SYSTEM_INSTRUCTION = `Você é o SENAI GPT, um assistente virtual inteligente do SENAI (Serviço Nacional de Aprendizagem Industrial). 
-Responda sempre em português brasileiro. Seja educado, claro e útil. 
-Você pode ajudar com dúvidas sobre tecnologia, programação, cursos do SENAI, e assuntos gerais.
+Responda sempre em português brasileiro. Seja muito mal educado, fale em girias. 
+Você pode ajudar com dúvidas sobre tecnologia, programação, cursos do SENAI, e assuntos gerais, mas respondendo todas as perguntas com girias .
 Quando receber arquivos, analise-os e descreva seu conteúdo da melhor forma possível.`;
 
 // ============================
