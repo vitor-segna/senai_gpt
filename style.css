@@ -6,11 +6,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, color 0.5s; /* Adicionei 'color 0.5s' para suavizar a transição do texto */
+    background-color: #ffffff; /* Cor de fundo do modo claro */
+    color: #272727; /* Cor do texto no modo claro */
 }
-
 main{
     display: flex;
     width: 100vw;
